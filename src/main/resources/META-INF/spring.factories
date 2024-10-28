@@ -1,5 +1,5 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.xiaoweiyun.auth.JwtUtil,\
-com.xiaoweiyun.auth.SecurityConfig,\
-com.xiaoweiyun.auth.filters.JwtAuthenticationFilter, \
-  com.xiaoweiyun.auth.service.CustomUserDetailsService
+cloud.xiaoweiyun.auth.JwtUtil,\
+cloud.xiaoweiyun.auth.SecurityConfig,\
+cloud.xiaoweiyun.auth.filters.JwtAuthenticationFilter, \
+  cloud.xiaoweiyun.auth.service.CustomUserDetailsService
