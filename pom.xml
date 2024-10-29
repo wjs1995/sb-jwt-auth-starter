@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>cloud.xiaoweiyun</groupId>
     <artifactId>sb-jwt-auth-starter</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <name>sb-jwt-auth-starter</name>
     <description>sb-jwt-auth-starter</description>
 

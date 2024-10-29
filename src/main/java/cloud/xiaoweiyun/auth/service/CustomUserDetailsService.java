@@ -27,7 +27,6 @@ public class CustomUserDetailsService implements UserDetailsService {
     public UserEntity loadUserByJwt(String jwt) throws UsernameNotFoundException {
         // 从数据库中查找用户
         UserEntity user = jwtUtil.parseToken(jwt);
-        System.out.println(user);
         if (user == null) {
             throw new UsernameNotFoundException("User not found");
         }
