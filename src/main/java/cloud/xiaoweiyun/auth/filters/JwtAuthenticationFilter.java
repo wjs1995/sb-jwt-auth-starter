@@ -66,7 +66,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
                 ok(response,"用户名称不能为null");
             }
             // 验证JWT
-            if (jwtUtil.validateToken(jwt, userDetails.getUsername())) {
+            if (userDetails != null && jwtUtil.validateToken(jwt, userDetails.getUsername())) {
                 // 设置Authentication到上下文中
                 UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(
                         userDetails, null, userDetails.getAuthorities());

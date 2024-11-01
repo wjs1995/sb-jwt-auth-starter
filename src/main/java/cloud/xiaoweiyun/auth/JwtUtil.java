@@ -27,14 +27,11 @@ public class JwtUtil {
                     .setSigningKey(secret)
                     .parseClaimsJws(jwt)
                     .getBody();
-            System.out.println("claims:");
-            System.out.println(claims);
             // 提取信息
 //            String username = claims.get("username", String.class);
             String username = claims.getSubject();
             // 你可以提取其他信息
             UserEntity userEntity = new UserEntity(username,"",new ArrayList<>());
-            System.out.println("userEntity");
             System.out.println(userEntity);
             return userEntity;
 

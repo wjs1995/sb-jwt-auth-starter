@@ -7,9 +7,21 @@ import org.springframework.security.core.userdetails.User;
 import java.util.Collection;
 
 public class UserEntity extends User {
+
+    public Integer Id;
+
+    public Integer getId() {
+        return Id;
+    }
+
+    public void setId(Integer id) {
+        Id = id;
+    }
+
     public GenderEnum getGender() {
         return gender;
     }
+
 
     public void setGender(GenderEnum gender) {
         this.gender = gender;
