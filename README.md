@@ -26,15 +26,24 @@ spring.security.public.paths 为公开的接口配置，字符串数组
 
 ### 提醒
 必要时需要手动清除缓存 SecurityContextHolder.clearContext();
+```java
+// 例如 
+/**
+ * spring:
+    security:
+     public:
+      paths: /sign/login,sign/in
+ * */
+```
 authentication.setAuthenticated(false);
 
 
 ```java
-@Autowired
-private JwtUtil jwtUtil;
+// @Autowired
+// private JwtUtil jwtUtil;
 ```
 
 ```java
-jwtUtil.generateToken(authRequest.getUsername());
+// jwtUtil.generateToken(authRequest.getUsername());
 // 生成token
 ```
