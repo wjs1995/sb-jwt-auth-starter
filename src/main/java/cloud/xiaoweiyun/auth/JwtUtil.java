@@ -20,6 +20,10 @@ public class JwtUtil {
         return createToken(claims, username);
     }
 
+    public String generateObjectToken(String username, Map<String, Object> claims) {
+        return createToken(claims, username);
+    }
+
     public UserEntity parseToken(String jwt) {
         try {
             // 解析 JWT

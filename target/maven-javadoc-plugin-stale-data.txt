@@ -19,13 +19,13 @@
 -docencoding
 'UTF-8'
 -doctitle
-'sb-jwt-auth-starter 0.0.2 API'
+'sb-jwt-auth-starter 0.0.3 API'
 -linkoffline
 'https://docs.oracle.com/javase/8/docs/api' 'D:/WorkSpace/Java/Plugins/sb-jwt-auth-starter/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'sb-jwt-auth-starter 0.0.2 API'
+'sb-jwt-auth-starter 0.0.3 API'
 cloud.xiaoweiyun.auth
 cloud.xiaoweiyun.auth.enums
 cloud.xiaoweiyun.auth.filters
@@ -72,18 +72,18 @@ D:\MySoftWare\Maven\apache-maven-3.9.5\repo\com\fasterxml\jackson\core\jackson-a
 D:\MySoftWare\Maven\apache-maven-3.9.5\repo\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar = 1692344442000
 D:\MySoftWare\Maven\apache-maven-3.9.5\repo\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar = 1661740826000
 D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\src\main\java = 1730169079520
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\generated-sources\annotations = 1730180149572
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\allclasses-frame.html = 1730180159550
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\allclasses-noframe.html = 1730180159552
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\constant-values.html = 1730180159500
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\deprecated-list.html = 1730180159549
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\help-doc.html = 1730180159557
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\index-all.html = 1730180159546
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\index.html = 1730180159553
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\overview-frame.html = 1730180159460
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\overview-summary.html = 1730180159555
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\overview-tree.html = 1730180159541
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\package-list = 1730180159458
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\script.js = 1730180159560
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\serialized-form.html = 1730180159504
-D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\stylesheet.css = 1730180159559
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\generated-sources\annotations = 1734340263412
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\allclasses-frame.html = 1734340283085
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\allclasses-noframe.html = 1734340283086
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\constant-values.html = 1734340283038
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\deprecated-list.html = 1734340283084
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\help-doc.html = 1734340283092
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\index-all.html = 1734340283081
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\index.html = 1734340283088
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\overview-frame.html = 1734340283002
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\overview-summary.html = 1734340283090
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\overview-tree.html = 1734340283076
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\package-list = 1734340282999
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\script.js = 1734340283094
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\serialized-form.html = 1734340283043
+D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter\target\reports\apidocs\stylesheet.css = 1734340283093
