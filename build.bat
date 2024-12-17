@@ -1,0 +1,1 @@
+java -jar maven-migration-jar-with-dependencies.jar  migrate --source-dir="D:\WorkSpace\Java\Plugins\sb-jwt-auth-starter"  --target-repo-url="https://packages.aliyun.com/6552cc06f65042daf4ed8c3d/maven/2433945-release-k4myct"  --target-repo-username="6552cc017860abc0325282a0" --target-repo-password="DKLNJ1pQPw[0" --include="cloud.xiaoweiyun" --exclude="junit"
