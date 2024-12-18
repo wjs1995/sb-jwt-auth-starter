@@ -15,14 +15,15 @@ public class JwtUtil {
     private String secret = "wangjinsheng";
     private long expiration = 86400000; // 1天
 
-    public String generateToken(String username) {
+    public String generateToken(String username, Long userId) {
         Map<String, Object> claims = new HashMap<>();
+        claims.put("userId", userId);
         return createToken(claims, username);
     }
 
-    public String generateObjectToken(String username, Map<String, Object> claims) {
-        return createToken(claims, username);
-    }
+//    public String generateObjectToken(String username, Map<String, Object> claims) {
+//        return createToken(claims, username);
+//    }
 
     public UserEntity parseToken(String jwt) {
         try {
@@ -34,9 +35,10 @@ public class JwtUtil {
             // 提取信息
 //            String username = claims.get("username", String.class);
             String username = claims.getSubject();
+            Long userId = (Long) claims.get("userId");
             // 你可以提取其他信息
-            UserEntity userEntity = new UserEntity(username,"",new ArrayList<>());
-            System.out.println(userEntity);
+            UserEntity userEntity = new UserEntity(username,userId);
+//            System.out.println(userEntity);
             return userEntity;
 
         } catch (SignatureException e) {
